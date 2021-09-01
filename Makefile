@@ -9,6 +9,7 @@ DOCKER_COMPOSE_TEST=docker-compose -f docker-compose-test.yaml
 docker-build:
 	$(DOCKER_COMPOSE) build
 
+
 docker-build-prod:
 	$(DOCKER_COMPOSE_PROD) build
 
